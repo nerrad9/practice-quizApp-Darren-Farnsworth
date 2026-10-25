@@ -1,0 +1,20 @@
+{
+    "q1":{
+        "question":"How many continents are there?",
+        "answers":["5","6","7","8"],
+        "correct":3,
+        "solution":"There are 7 continents"
+    },
+    "q2":{
+        "question":"How many inches in a yard?",
+        "answers":["28","36","48","52"],
+        "correct":2,
+        "solution":"There are 12 inches in a foot and 3 feet in a yard. Therefor there are 36 inches in a yard."
+    },
+    "q3":{
+        "question":"What words should always be capitalized?",
+        "answers":["Proper nouns","Adjectives","Nouns","Onomatopoeia"],
+        "correct":1,
+        "solution":"Proper nouns should always be capitalized"
+    }
+}

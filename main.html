@@ -2,19 +2,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>5th Grade Quiz</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-
+        <h1 class = "title" id = "title">Are You Smarter Than a 5th Grader?</h1>
     </header>
     <main>
-        <p>:3</p>
+    <div class = "main">
+        <p class = "question" id = "question">a</p>
+        <div style = "display:flex; flex-direction:column;">
+            <button type="button" class = "ans" id = "1">b</button>
+            <button type="button" class = "ans" id = "2">c</button>
+            <button type="button" class = "ans" id = "3">d</button>
+            <button type="button" class = "ans" id = "4">e</button>
+        </div>
+        <img class = "wl" id = "wl" alt = "bidoof" src = "./images.png" style = "display:none">
+        <p class = "solution" id = "solution" style = "display:none"></p>
+        <button type="button" class = "next" id = "next" style = "display:none">Next Question</button>
+    </div>
     </main>
     <footer>
 
     </footer>
-    <script src="main.js"></script>
+    <script type = "module" src="main.js"></script>
 </body>
 </html>
